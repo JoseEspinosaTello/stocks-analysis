@@ -54,11 +54,11 @@ Overall, removing the nested loops and turning the totalVolume, tickerStartingPr
 
 The initial test of the code showed incredible results. The first test of the original code returned 0.5507813 seconds for 2017 and 0.5507813 seconds for 2018.
 
-![2017_reg_1](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/2017_reg_1.png?raw=true) ![2018_reg_1](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/2018_reg_1.png?raw=true)
+![2017_reg_1](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/2017_reg_1.png?raw=true) ![VBA_Challenge_2018](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/VBA_Challenge_2018?raw=true)
 
 The refactored code showed a significant decrease in time to run with 2017 returning .0625 seconds and 2018 returning 0.0703125 seconds.
 
-![2017_new_1](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/2017_new_1.png?raw=true) ![2018_new_1](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/2018_new_1.png?raw=true)
+![VBA_Challenge_2017](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/VBA_Challenge_2017.png?raw=true) ![2018_new_1](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/2018_new_1.png?raw=true)
 
 These results show an 89% change for 2017 and 87% change in the amount of time taken for the code to complete running. The initial results show a great reduction of time to run, however, one run for each macro will return and accurate analysis of the change. To get a better idea of the overall change we needed a larger sample. Therefore, we ran the macros for each year five more times and recorded the results.
 
