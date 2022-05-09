@@ -30,3 +30,23 @@ Once the nested loop ran through every row for the current ticker value, the pro
 As the program stores data and runs through the nest loop, it is also running and storing data from the main loop. Therefore, the nested loops are where an estimated high consumption of memory would occur. 
 
 ### Refactored code
+
+The nested loop in our original code is where the bulk of the work is being done consuming the most energy. In order to eliminate the nested loop, we had to rework the way our arrays are handled. 
+We began by initializing a tickerIndex as 0 and initializing the totalVolume, tickerStartingPrices, and tickerEndingPrices as arrays with an input of 11 equal to the size of the tickers() array.
+
+![ticker_index_arrays](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/ticker_index_arrays.png?raw=true)
+
+Open a loop that sets the value of all 12 items in the list to 0 and then close the loop.
+
+![total_volume_loop](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/total_volume_loop.png?raw=true)
+
+Next, we will loop through all rows and apply the proper values to our new arrays. Instead of determining these values and setting them during the nested loop like the old code, the refactored code will store the values in the arrays until the value is call in the next loop.
+
+![refactored_loop](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/refactored_loop.png?raw=true)
+
+The final loop will loop throw the now fully populated arrays and call the value of the current item in the list and assign the value to the desired cells in the excel form.
+
+![ref_final_loop](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/ref_final_loop.png?raw=true)
+
+Overall, removing the nested loops and turning the totalVolume, tickerStartingPrices, and tickerEndingPrices into arrays, will allow us to store the values we determine within the arrays outside the loops. This gives us the freedom to create three loops that run at separate times and require less memory consumption, therefore increasing the speed of the program.
+
