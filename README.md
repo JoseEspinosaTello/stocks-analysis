@@ -50,3 +50,8 @@ The final loop will loop throw the now fully populated arrays and call the value
 
 Overall, removing the nested loops and turning the totalVolume, tickerStartingPrices, and tickerEndingPrices into arrays, will allow us to store the values we determine within the arrays outside the loops. This gives us the freedom to create three loops that run at separate times and require less memory consumption, therefore increasing the speed of the program.
 
+## Results
+
+The initial test of the code showed incredible results. The first test of the original code returned 0.5507813 seconds for 2017 and 0.5507813 seconds for 2018.
+
+![2017_reg_1](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/2017_reg_1.png?raw=true) ![2018_reg_1](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/2018_reg_1.png?raw=true)
