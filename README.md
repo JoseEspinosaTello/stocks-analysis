@@ -54,7 +54,7 @@ Overall, removing the nested loops and turning the totalVolume, tickerStartingPr
 
 The initial test of the code showed incredible results. The first test of the original code returned 0.5507813 seconds for 2017 and 0.5507813 seconds for 2018.
 
-![2017_reg_1](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/2017_reg_1.png?raw=true) ![2018_reg_1](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/2018_reg_1?raw=true)
+![2017_reg_1](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/2017_reg_1.png?raw=true) ![2018_reg_1](https://github.com/JoseEspinosaTello/stocks-analysis/blob/main/Recources/2018_reg_1.png?raw=true)
 
 The refactored code showed a significant decrease in time to run with 2017 returning .0625 seconds and 2018 returning 0.0703125 seconds.
 
